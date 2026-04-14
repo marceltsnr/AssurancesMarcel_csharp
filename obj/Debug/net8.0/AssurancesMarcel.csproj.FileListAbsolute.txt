@@ -1,0 +1,14 @@
+C:\Users\Marce\OneDrive\Desktop\Ecole\5TTI (2025-2026)\info\UAA11\AssurancesMarcel\bin\Debug\net8.0\AssurancesMarcel.exe
+C:\Users\Marce\OneDrive\Desktop\Ecole\5TTI (2025-2026)\info\UAA11\AssurancesMarcel\bin\Debug\net8.0\AssurancesMarcel.deps.json
+C:\Users\Marce\OneDrive\Desktop\Ecole\5TTI (2025-2026)\info\UAA11\AssurancesMarcel\bin\Debug\net8.0\AssurancesMarcel.runtimeconfig.json
+C:\Users\Marce\OneDrive\Desktop\Ecole\5TTI (2025-2026)\info\UAA11\AssurancesMarcel\bin\Debug\net8.0\AssurancesMarcel.dll
+C:\Users\Marce\OneDrive\Desktop\Ecole\5TTI (2025-2026)\info\UAA11\AssurancesMarcel\bin\Debug\net8.0\AssurancesMarcel.pdb
+C:\Users\Marce\OneDrive\Desktop\Ecole\5TTI (2025-2026)\info\UAA11\AssurancesMarcel\obj\Debug\net8.0\AssurancesMarcel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marce\OneDrive\Desktop\Ecole\5TTI (2025-2026)\info\UAA11\AssurancesMarcel\obj\Debug\net8.0\AssurancesMarcel.AssemblyInfoInputs.cache
+C:\Users\Marce\OneDrive\Desktop\Ecole\5TTI (2025-2026)\info\UAA11\AssurancesMarcel\obj\Debug\net8.0\AssurancesMarcel.AssemblyInfo.cs
+C:\Users\Marce\OneDrive\Desktop\Ecole\5TTI (2025-2026)\info\UAA11\AssurancesMarcel\obj\Debug\net8.0\AssurancesMarcel.csproj.CoreCompileInputs.cache
+C:\Users\Marce\OneDrive\Desktop\Ecole\5TTI (2025-2026)\info\UAA11\AssurancesMarcel\obj\Debug\net8.0\AssurancesMarcel.dll
+C:\Users\Marce\OneDrive\Desktop\Ecole\5TTI (2025-2026)\info\UAA11\AssurancesMarcel\obj\Debug\net8.0\refint\AssurancesMarcel.dll
+C:\Users\Marce\OneDrive\Desktop\Ecole\5TTI (2025-2026)\info\UAA11\AssurancesMarcel\obj\Debug\net8.0\AssurancesMarcel.pdb
+C:\Users\Marce\OneDrive\Desktop\Ecole\5TTI (2025-2026)\info\UAA11\AssurancesMarcel\obj\Debug\net8.0\AssurancesMarcel.genruntimeconfig.cache
+C:\Users\Marce\OneDrive\Desktop\Ecole\5TTI (2025-2026)\info\UAA11\AssurancesMarcel\obj\Debug\net8.0\ref\AssurancesMarcel.dll
