@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:nsd="http://structorizer.fisch.lu/" version="3.24" text="DeterminerTarifAssurance" comment="" color="ffffff" type="program" style="nice">
+	<children>
+		<instruction text="Afficher &quot;Âge du conducteur : &quot;" color="ffffff" rotated="0"/>
+		<instruction text="Lire age" color="ffffff" rotated="0"/>
+		<instruction text="Afficher &quot;Ancienneté du permis (années) : &quot;" color="ffffff" rotated="0"/>
+		<instruction text="Lire anciennetePermis" color="ffffff" rotated="0"/>
+		<instruction text="Afficher &quot;Nombre d'accidents responsables : &quot;" color="ffffff" rotated="0"/>
+		<instruction text="Lire nbAccidents" color="ffffff" rotated="0"/>
+		<instruction text="Afficher &quot;Ancienneté comme client (années) : &quot;" color="ffffff" rotated="0"/>
+		<instruction text="Lire ancienneteClient" color="ffffff" rotated="0"/>
+		
+		<instruction text="resultat &lt;- &quot;Refusé&quot;" color="ffffff" rotated="0"/>
+		
+		<alternative text="age &lt; 25 et anciennetePermis &lt; 2" color="ffffff">
+			<qTrue>
+				<alternative text="nbAccidents = 0" color="ffffff">
+					<qTrue>
+						<instruction text="resultat &lt;- &quot;Rouge&quot;" color="ffffff" rotated="0"/>
+					</qTrue>
+					<qFalse>
+						<instruction text="resultat &lt;- &quot;Refusé&quot;" color="ffffff" rotated="0"/>
+					</qFalse>
+				</alternative>
+			</qTrue>
+			<qFalse>
+				<alternative text="(age &lt; 25 et anciennetePermis &gt;= 2) ou (age &gt;= 25 et anciennetePermis &lt; 2)" color="ffffff">
+					<qTrue>
+						<alternative text="nbAccidents = 0" color="ffffff">
+							<qTrue>
+								<instruction text="resultat &lt;- &quot;Orange&quot;" color="ffffff" rotated="0"/>
+							</qTrue>
+							<qFalse>
+								<alternative text="nbAccidents = 1" color="ffffff">
+									<qTrue>
+										<instruction text="resultat &lt;- &quot;Rouge&quot;" color="ffffff" rotated="0"/>
+									</qTrue>
+									<qFalse>
+										<instruction text="resultat &lt;- &quot;Refusé&quot;" color="ffffff" rotated="0"/>
+									</qFalse>
+								</alternative>
+							</qFalse>
+						</alternative>
+					</qTrue>
+					<qFalse>
+						<alternative text="age &gt;= 25 et anciennetePermis &gt;= 2" color="ffffff">
+							<qTrue>
+								<alternative text="nbAccidents = 0" color="ffffff">
+									<qTrue>
+										<instruction text="resultat &lt;- &quot;Vert&quot;" color="ffffff" rotated="0"/>
+									</qTrue>
+									<qFalse>
+										<alternative text="nbAccidents = 1" color="ffffff">
+											<qTrue>
+												<instruction text="resultat &lt;- &quot;Orange&quot;" color="ffffff" rotated="0"/>
+											</qTrue>
+											<qFalse>
+												<alternative text="nbAccidents = 2" color="ffffff">
+													<qTrue>
+														<instruction text="resultat &lt;- &quot;Rouge&quot;" color="ffffff" rotated="0"/>
+													</qTrue>
+													<qFalse>
+														<instruction text="resultat &lt;- &quot;Refusé&quot;" color="ffffff" rotated="0"/>
+													</qFalse>
+												</alternative>
+											</qFalse>
+										</alternative>
+									</qFalse>
+								</alternative>
+							</qTrue>
+						</alternative>
+					</qFalse>
+				</alternative>
+			</qFalse>
+		</alternative>
+		
+		<alternative text="ancienneteClient &gt; 5 et resultat &lt;&gt; &quot;Refusé&quot;" color="ffffff">
+			<qTrue>
+				<alternative text="resultat = &quot;Rouge&quot;" color="ffffff">
+					<qTrue>
+						<instruction text="resultat &lt;- &quot;Orange&quot;" color="ffffff" rotated="0"/>
+					</qTrue>
+					<qFalse>
+						<alternative text="resultat = &quot;Orange&quot;" color="ffffff">
+							<qTrue>
+								<instruction text="resultat &lt;- &quot;Vert&quot;" color="ffffff" rotated="0"/>
+							</qTrue>
+							<qFalse>
+								<alternative text="resultat = &quot;Vert&quot;" color="ffffff">
+									<qTrue>
+										<instruction text="resultat &lt;- &quot;Bleu&quot;" color="ffffff" rotated="0"/>
+									</qTrue>
+								</alternative>
+							</qFalse>
+						</alternative>
+					</qFalse>
+				</alternative>
+			</qTrue>
+		</alternative>
+		
+		<instruction text="Afficher &quot;Tarif obtenu : &quot;" color="ffffff" rotated="0"/>
+		<instruction text="Afficher resultat" color="ffffff" rotated="0"/>
+	</children>
+</root>
